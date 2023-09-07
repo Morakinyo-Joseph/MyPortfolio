@@ -16,17 +16,17 @@ export default function SocialIcon({}: Props) {
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "http://www.github.com/olamide",
+      link: "https://www.linkedin.com/in/morakinyo-david-o-ab9138240/",
     },
     {
       name: "Instagram",
       icon: <FiInstagram />,
-      link: "http://www.github.com/olamide",
+      link: "https://www.instagram.com/chippy_vibe/",
     },
     {
       name: "Twitter",
       icon: <FiTwitter />,
-      link: "http://www.github.com/olamide",
+      link: "https://twitter.com/morakinyodavi10",
     },
   ];
   return (
