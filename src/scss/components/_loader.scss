@@ -6,8 +6,16 @@
   align-items: center;
   overflow: hidden;
   height: 90vh;
+  position: relative;
   svg {
     height: 10rem !important;
     width: 10rem !important;
+  }
+
+  .logo-name {
+    position: absolute;
+    color: var(--theme-color);
+    z-index: 100;
+    font-size: 4rem;
   }
 }

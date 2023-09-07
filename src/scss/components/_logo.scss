@@ -1,10 +1,21 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .logo-name {
+    position: absolute;
+    color: var(--theme-color);
+    z-index: 100;
+    font-size: 1.3rem;
+    top: 0.8rem;
+  }
+}
+
 #logo {
   color: var(--theme-color);
   height: 100%;
   width: 100%;
   fill: none;
-  position: relative;
-  span {
-    position: absolute;
-  }
 }
