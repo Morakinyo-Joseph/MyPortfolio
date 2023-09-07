@@ -4,6 +4,7 @@ function Logo() {
   return (
     <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
       <title>Logo</title>
+      <span>M</span>
       <g>
         <g id="M" transform="translate(35.000000, 35.000000)">
           <path

@@ -127,7 +127,10 @@ const Navbar: React.FC<NavbarProps> = () => {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="http://localhost:3000/resume.pdf" />
+            <Button
+              text="Resume"
+              link="http://localhost:3000/MorakinyoDavidResume.pdf"
+            />
           </motion.div>
         </div>
       </div>

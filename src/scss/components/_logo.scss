@@ -1,6 +1,10 @@
-#logo{
-    color: var(--theme-color);
-    height: 100%;
-    width: 100%;
-    fill: none;
+#logo {
+  color: var(--theme-color);
+  height: 100%;
+  width: 100%;
+  fill: none;
+  position: relative;
+  span {
+    position: absolute;
+  }
 }
