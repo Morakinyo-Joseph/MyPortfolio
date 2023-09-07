@@ -1,17 +1,13 @@
-import type { Metadata } from "next";
+"use client";
 import "@/scss/index.scss";
 import { Raleway, Fira_Code } from "next/font/google";
 
-const raleway = Raleway({ subsets: ["latin"] });
+const raleway = Raleway({ subsets: ["latin"], variable: "--raleway" });
 const firaCode = Fira_Code({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
+  variable: "--fira-code",
 });
-
-export const metadata: Metadata = {
-  title: "Morakinyo David",
-  description: "Fullstack developer",
-};
 
 export default function RootLayout({
   children,
