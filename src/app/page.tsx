@@ -24,6 +24,7 @@ export default function Home() {
     };
     handleLoaderLoaded();
   }, [isLoading]);
+
   return (
     <div className="app">
       {showContent ? (
