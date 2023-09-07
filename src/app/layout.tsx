@@ -1,3 +1,4 @@
+"use client";
 import type { Metadata } from "next";
 import "@/scss/index.scss";
 import { Raleway, Fira_Code } from "next/font/google";
