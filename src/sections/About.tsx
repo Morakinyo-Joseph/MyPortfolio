@@ -52,14 +52,15 @@ const About = () => {
             </Link>
           </p> */}
           <p className="about-grid-info-text">
-            I am also working on a new project called &nbsp;
+            I just finished working on a new project called &nbsp;
             <Link
               href="https://laundryservice-i13l.onrender.com"
               target="_blank"
               className="link"
             >
-              Laundry Mart
+              Quill
             </Link>{" "}
+            communicate to your PDF file by leveraging AI.
           </p>
 
           <p className="about-grid-info-text">
