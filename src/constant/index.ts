@@ -3,11 +3,12 @@ export const experiences = [
     name: "JSS -(Jet support services LTD)",
     role: "Frontend Developer",
     start: "July 2023",
-    end: "Present",
+    end: "Oct 2023",
     shortDescription: [
-      "Collaborated with a backend developer to conceive and construct an innovative Airline Flight Technical Log",
-      "My pivotal role revolved around designing and consuming the backend API, and creating stunning cutting edge designs",
-      "To develop a digital aircraft technical logbook, which i utilized various frontend technology, including React, Zustand, React Query and TypeScript etc",
+      "Designed and developed the user interface for the digital flight logbook system, ensuring an intuitive and visually appealing experience for users",
+      "Implemented features for pilots and flight crews to input and manage flight data, including flight hours, routes, aircraft information, and other relevant details",
+      "Ensured the system's compatibility with various devices, including mobile phones and tablets, to accommodate the needs of users in diverse aviation environments",
+      "Worked closely with backend developers to ensure seamless integration of the frontend with the database and server-side functionalities",
       "By leveraging my expertise in frontend development, I have contributed to the creation of a robust and efficient solution that enhances operational efficiency within the aviation domain.",
     ],
   },
@@ -18,9 +19,11 @@ export const experiences = [
     start: "May 2021",
     end: "October 2021",
     shortDescription: [
-      "I had experience deploying their project called Vota on a local premise server.",
-      "I was opportune to develop an Intern record profile, using ASP.net core",
-      "I represented the company at NNPC election where I was opportuned to coordinate and monitor the system process due to my understanding of the system network architecture and the system in general",
+      "Assisted in deploying their Saas called VOTA, and it’s database.",
+      `I represented the Chams mobile at the NNPC 2021 election where I was opportune to coordinate and monitor the system process, and the 
+      system network architecture.`,
+      `Acquired knowledge in web development and design principles
+      while creating content for web applications.`,
       "Conduct quality assurance checks on product before release into the market",
     ],
   },
@@ -28,8 +31,30 @@ export const experiences = [
 
 export const projectsData = [
   {
+    image: "/Quill.png",
+    projectLink: "https://quill-nine-eosin.vercel.app/",
+    projectName: "Quill",
+    projectDescription:
+      "Quill allows you to have conversation with any PDF document.By simply uploading your file you can start asking questions right away and an AI assistant will provide you with the necessary feedback.",
+    projectTech: [
+      "React",
+      "Next js",
+      "TRPc",
+      "React Query",
+      "Tailwind Css",
+      "Pincone",
+      "Langchain",
+      "Prisma",
+      "Open AI",
+    ],
+    projectExternalLinks: {
+      github: "https://github.com/olamidemoraks/quill",
+      externalLink: "https://quill-nine-eosin.vercel.app/",
+    },
+  },
+  {
     image: "/wihire.png",
-    projectLink: "https://job-board-kieq3u1kt-olamidemoraks.vercel.app/",
+    projectLink: "https://job-board-teal.vercel.app/",
     projectName: "WiHire",
     projectDescription:
       "WiHire is a dynamic and feature-rich job board system that I conceptualized and developed. It empowers employers to seamlessly post comprehensive job listings, streamlining the hiring process and enhancing the candidate experience.",
@@ -45,7 +70,7 @@ export const projectsData = [
     ],
     projectExternalLinks: {
       github: "https://github.com/olamidemoraks/JobBoard-client",
-      externalLink: "https://job-board-kieq3u1kt-olamidemoraks.vercel.app/",
+      externalLink: "https://job-board-teal.vercel.app/",
     },
   },
 
@@ -80,6 +105,28 @@ export const projectsData = [
     projectExternalLinks: {
       github: "https://github.com/olamidemoraks/reddit-clone",
       externalLink: "https://reddit-clone-mu-ten.vercel.app/",
+    },
+  },
+  {
+    image: "/mymind.png",
+    projectLink: "https://blog-mymind.vercel.app/",
+    projectName: "My Mind",
+    projectDescription:
+      "Be an inspiration to others with your facinating thought with your writing.",
+    projectTech: [
+      "React",
+      "Next js",
+      "Typescript",
+      "Express js",
+      "Tailwind Css",
+      "Node js",
+      "Javascript",
+      "Mongo Db",
+      "Zustand",
+    ],
+    projectExternalLinks: {
+      github: "https://github.com/olamidemoraks",
+      externalLink: "https://blog-mymind.vercel.app/",
     },
   },
 

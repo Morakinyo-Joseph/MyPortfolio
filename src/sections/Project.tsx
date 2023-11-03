@@ -1,12 +1,25 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-import { FiGithub, FiExternalLink } from "react-icons/fi";
+import { FiGithub, FiExternalLink, FiChevronDown } from "react-icons/fi";
 import { projectsData } from "@/constant";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
 const Project = () => {
+  const [totalShow, setTotalShow] = useState(3);
+  const allProject = projectsData.length;
+  let skip = 3;
+
+  const viewMore = () => {
+    setTotalShow((prev) => {
+      if (prev >= skip && prev <= allProject) {
+        return prev + skip;
+      }
+      return prev;
+    });
+  };
+
   return (
     <motion.div
       whileInView="visible"
@@ -24,60 +37,69 @@ const Project = () => {
         <h2>Some Things I’ve Built</h2>
       </div>
       <div className="projects-container">
-        {projectsData.map(
-          ({
-            image,
-            projectDescription,
-            projectLink,
-            projectExternalLinks,
-            projectName,
-            projectTech,
-          }) => {
-            return (
-              <div className="project" key={projectName}>
-                <div className="project-image">
-                  <div className="project-image-overlay"></div>
-                  <div className="project-image-container">
-                    <Image src={image} fill alt={projectName} quality={100} />
+        {projectsData
+          .slice(0, totalShow)
+          .map(
+            ({
+              image,
+              projectDescription,
+              projectLink,
+              projectExternalLinks,
+              projectName,
+              projectTech,
+            }) => {
+              return (
+                <div className="project" key={projectName}>
+                  <div className="project-image">
+                    <div className="project-image-overlay"></div>
+                    <div className="project-image-container">
+                      <Image src={image} fill alt={projectName} quality={100} />
+                    </div>
                   </div>
-                </div>
-                <div className="project-info">
-                  <p className="project-info-overline">Featured Project</p>
-                  <h3 className="project-info-title">{projectName}</h3>
-                  <div className="project-info-description">
-                    <p>{projectDescription}</p>
-                  </div>
-                  <ul className="project-info-tech-list">
-                    {projectTech.map((tech) => (
-                      <li className="project-info-tech-list-item" key={tech}>
-                        {tech}
+                  <div className="project-info">
+                    <p className="project-info-overline">Featured Project</p>
+                    <Link href={projectExternalLinks.externalLink}>
+                      <h3 className="project-info-title">{projectName}</h3>
+                    </Link>
+                    <div className="project-info-description">
+                      <p>{projectDescription}</p>
+                    </div>
+                    <ul className="project-info-tech-list">
+                      {projectTech.map((tech) => (
+                        <li className="project-info-tech-list-item" key={tech}>
+                          {tech}
+                        </li>
+                      ))}
+                    </ul>
+                    <ul className="project-info-links">
+                      <li className="project-info-links-item">
+                        <Link
+                          href={projectExternalLinks.github}
+                          className="project-info-links-item-link"
+                        >
+                          <FiGithub />
+                        </Link>
                       </li>
-                    ))}
-                  </ul>
-                  <ul className="project-info-links">
-                    <li className="project-info-links-item">
-                      <Link
-                        href={projectExternalLinks.github}
-                        className="project-info-links-item-link"
-                      >
-                        <FiGithub />
-                      </Link>
-                    </li>
-                    <li className="project-info-links-item">
-                      <Link
-                        target="_blank"
-                        href={projectExternalLinks.externalLink}
-                        className="project-info-links-item-link"
-                      >
-                        <FiExternalLink />
-                      </Link>
-                    </li>
-                  </ul>
+                      <li className="project-info-links-item">
+                        <Link
+                          target="_blank"
+                          href={projectExternalLinks.externalLink}
+                          className="project-info-links-item-link"
+                        >
+                          <FiExternalLink />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            );
-          }
-        )}
+              );
+            }
+          )}
+      </div>
+      <div className="expand">
+        <div className="expand-button" onClick={viewMore}>
+          View more <FiChevronDown />
+        </div>
       </div>
     </motion.div>
   );

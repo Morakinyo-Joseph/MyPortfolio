@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import AnimateEye from "@/components/AnimateEye";
+import Title from "@/components/Title";
 
 const Hero = () => {
   return (
@@ -58,9 +59,10 @@ const Hero = () => {
         }}
         className="hero-text"
       >
-        I&apos;m a frontend engineer with expertise in creating top notch
-        digital experience. My current involvement is to develop products that
-        are accessible and centered around user needs.
+        I&apos;m a {"<"} <Title /> {"/>"}
+        <br /> with expertise in creating top notch digital experience. My
+        current involvement is to develop products that are accessible and
+        centered around user needs.
         {/* <Link href={"/"} className="link">
           Rapido.
         </Link> */}

@@ -5,6 +5,7 @@ import Loader from "@/components/Loader";
 import SocialIcon from "@/components/SocialIcon";
 import About from "@/sections/About";
 import Contact from "@/sections/Contact";
+import Eduction from "@/sections/Eduction";
 import Experience from "@/sections/Experience";
 import Hero from "@/sections/Hero";
 import Navbar from "@/sections/Navbar";
@@ -26,7 +27,7 @@ export default function Home() {
   }, [isLoading]);
 
   return (
-    <div className="app">
+    <div className="app grainy">
       {showContent ? (
         <>
           <Navbar />
@@ -36,6 +37,7 @@ export default function Home() {
             {/* <AnimateEye /> */}
             <Hero />
             <About />
+            <Eduction />
             <Experience />
             <Project />
             <Contact />

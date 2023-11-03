@@ -66,13 +66,21 @@ const About = () => {
             Here are a few technologies I&apos;ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
-            <li className="about-grid-info-list-item">React</li>
             <li className="about-grid-info-list-item">Next js</li>
+            <li className="about-grid-info-list-item">CSS</li>
             <li className="about-grid-info-list-item">Typescript</li>
             <li className="about-grid-info-list-item">Redux Toolkit</li>
-            <li className="about-grid-info-list-item">Node js</li>
-            <li className="about-grid-info-list-item">CSS</li>
             <li className="about-grid-info-list-item">SCSS</li>
+            <li className="about-grid-info-list-item">Node js</li>
+            <li className="about-grid-info-list-item">React</li>
+            <li className="about-grid-info-list-item">Tailwind</li>
+            <li className="about-grid-info-list-item">Mongo db</li>
+            <li className="about-grid-info-list-item">JavaScript</li>
+            <li className="about-grid-info-list-item">Material Ui</li>
+            <li className="about-grid-info-list-item">Prisma</li>
+            <li className="about-grid-info-list-item">Redux</li>
+            <li className="about-grid-info-list-item">Shadcn UI</li>
+            <li className="about-grid-info-list-item">Express</li>
           </ul>
         </div>
 

@@ -152,6 +152,29 @@
       }
     }
   }
+  .expand {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 4rem;
+    &-button {
+      border: 1px var(--theme-color) solid;
+      padding: 6px 8px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      cursor: pointer;
+      color: var(--light-slate);
+      font-size: var(--tbase);
+      transition: 0.5s linear;
+
+      &:hover {
+        scale: 1.1;
+      }
+    }
+  }
 
   @media screen and (max-width: 1100px) {
     &-container {
