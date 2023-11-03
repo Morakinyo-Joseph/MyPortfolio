@@ -10,7 +10,7 @@ const firaCode = Fira_Code({
   variable: "--fira-code",
 });
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Morakinyo David | Portfolio",
   description: "I am a fullstack web developer",
   icons: "/favicon.ico",

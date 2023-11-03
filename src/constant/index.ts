@@ -35,7 +35,7 @@ export const projectsData = [
     projectLink: "https://quill-nine-eosin.vercel.app/",
     projectName: "Quill",
     projectDescription:
-      "Quill allows you to have conversation with any PDF document.By simply uploading your file you can start asking questions right away and an AI assistant will provide you with the necessary feedback.",
+      "Quill allows you to have conversation with any PDF document. By simply uploading your file you can start asking questions right away and an AI assistant will provide you with the necessary feedback. You can be upgraded on this software by subscribing to a Premium package",
     projectTech: [
       "React",
       "Next js",
