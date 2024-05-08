@@ -29,7 +29,7 @@
   &-container {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 10rem;
     .project {
       position: relative;
       display: flex;
@@ -38,7 +38,7 @@
         &-container {
           position: relative;
           width: 600px;
-          height: 300px;
+          height: 450px;
         }
         position: absolute;
         top: 0;
@@ -79,6 +79,7 @@
         }
         &-title {
           width: max-content;
+          position: relative;
           color: var(--lightest-slate);
           font-size: var(--txlarge);
           font-family: var(--raleway);
@@ -86,6 +87,11 @@
           transition: 0.3s ease-in-out;
           &:hover {
             color: var(--theme-color);
+          }
+
+          img {
+            position: absolute;
+            bottom: -20px;
           }
         }
         &-description {
@@ -212,12 +218,12 @@
         &-image {
           &-container {
             width: 500px;
-            height: 300px;
+            height: 400px;
           }
         }
         .project-info {
           width: 500px;
-          height: 300px;
+          height: 400px;
         }
       }
     }
@@ -227,12 +233,12 @@
       .project {
         &-image {
           &-container {
-            width: 350px;
+            width: 450px;
             height: 400px;
           }
         }
         .project-info {
-          width: 350px;
+          width: 450px;
           height: 400px;
         }
       }

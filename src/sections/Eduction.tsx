@@ -12,7 +12,6 @@ const Eduction: React.FC<EductionProps> = () => {
       </div>
       <div className="education-grid">
         <p className="education-grid-school">Landmark University</p>
-        <p className="education-grid-year">2018 - 2022</p>
         <p className="education-grid-degree">BSc Computer Science</p>
       </div>
     </div>

@@ -2,14 +2,14 @@ export const experiences = [
   {
     name: "JSS -(Jet support services LTD)",
     role: "Frontend Developer",
-    start: "July 2023",
-    end: "Oct 2023",
+    start: "June 2023",
+    end: "November 2023",
     shortDescription: [
-      "Designed and developed the user interface for the digital flight logbook system, ensuring an intuitive and visually appealing experience for users",
-      "Implemented features for pilots and flight crews to input and manage flight data, including flight hours, routes, aircraft information, and other relevant details",
-      "Ensured the system's compatibility with various devices, including mobile phones and tablets, to accommodate the needs of users in diverse aviation environments",
-      "Worked closely with backend developers to ensure seamless integration of the frontend with the database and server-side functionalities",
-      "By leveraging my expertise in frontend development, I have contributed to the creation of a robust and efficient solution that enhances operational efficiency within the aviation domain.",
+      "Led the design and development of the user interface for the digital Flight Logbook system, resulting in a 50% reduction in the time required for pilots to log a flight compared to the previous manual process.",
+      "Implemented reusable components and refactored the codebase, leading to a significant reduction in project size by over 50% and enhancing maintainability. ",
+      "Orchestrated seamless collaboration with backend developers to ensure flawless integration of frontend functionalities with the database and server-side systems, facilitating uninterrupted data flow and system synchronization. ",
+      "Engineered the system for scalability, effectively handling a surge of 100% in flight log entries over a 2-month period, showcasing robust performance under increased workload demands without compromising user experience or system reliability. ",
+      "Implemented modular architecture, resulting in a 35% reduction in system downtime and a 40% decrease in maintenance efforts, leading to enhanced system reliability and stability.",
     ],
   },
   {
@@ -19,17 +19,34 @@ export const experiences = [
     start: "May 2021",
     end: "October 2021",
     shortDescription: [
-      "Assisted in deploying their Saas called VOTA, and it’s database.",
-      `I represented the Chams mobile at the NNPC 2021 election where I was opportune to coordinate and monitor the system process, and the 
-      system network architecture.`,
-      `Acquired knowledge in web development and design principles
-      while creating content for web applications.`,
-      "Conduct quality assurance checks on product before release into the market",
+      "Spearheaded the deployment of the SaaS (Software as a Service) product, VOTA, resulting in a successful launch and achieving a 40% decrease in deployment time compared to prior projects, accelerating time-to-market. ",
+      `Orchestrated the company's representation at the NNPC 2021 election, overseeing and monitoring the system process and network architecture to ensure uninterrupted operation during a critical event. Achieved an 80% increase in system uptime and data accuracy during the election, demonstrating exceptional reliability and performance under high-pressure conditions. `,
+      `Conducted rigorous quality assurance checks on products pre-launch, leading to a 70% decrease in post-release bug reports and a substantial improvement in product reliability. `,
     ],
   },
 ];
 
 export const projectsData = [
+  {
+    image: "/maxup.png",
+    projectLink: "https://quill-nine-eosin.vercel.app/",
+    projectName: "FitHouse",
+    projectDescription:
+      "FitHouse stands out as your go-to fitness web app due to its user-friendly interface, extensive exercise library, personalized approach, and robust tracking capabilities. Whether you're aiming to lose weight, build muscle, improve flexibility, or simply adopt a healthier lifestyle, FitFusion empowers you to reach your fitness goals effectively and sustainably.",
+    projectTech: [
+      "React",
+      "Next js",
+      "React Query",
+      "Tailwind Css",
+      "Node.js",
+      "Express.js",
+      "MongoDb",
+    ],
+    projectExternalLinks: {
+      github: "https://github.com/olamidemoraks/workout-client",
+      externalLink: "https://workout-client-seven.vercel.app",
+    },
+  },
   {
     image: "/Quill.png",
     projectLink: "https://quill-nine-eosin.vercel.app/",
@@ -105,28 +122,6 @@ export const projectsData = [
     projectExternalLinks: {
       github: "https://github.com/olamidemoraks/reddit-clone",
       externalLink: "https://reddit-clone-mu-ten.vercel.app/",
-    },
-  },
-  {
-    image: "/mymind.png",
-    projectLink: "https://blog-mymind.vercel.app/",
-    projectName: "My Mind",
-    projectDescription:
-      "Be an inspiration to others with your facinating thought with your writing.",
-    projectTech: [
-      "React",
-      "Next js",
-      "Typescript",
-      "Express js",
-      "Tailwind Css",
-      "Node js",
-      "Javascript",
-      "Mongo Db",
-      "Zustand",
-    ],
-    projectExternalLinks: {
-      github: "https://github.com/olamidemoraks",
-      externalLink: "https://blog-mymind.vercel.app/",
     },
   },
 

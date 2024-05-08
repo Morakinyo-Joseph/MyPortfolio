@@ -26,22 +26,17 @@ const About = () => {
         <div className="about-grid-info">
           <p className="about-grid-info-text">
             Bonjour! My name is Olamide, and i am passionate about creating
-            digital content for the web. My interest in web development was
-            sparked in 2019 when I created my first project called&nbsp;
-            <Link
-              href="https://sneaker-frontend2.onrender.com"
-              target="_blank"
-              className="link"
-            >
-              Sneaker
-            </Link>{" "}
-            with stunning design, an Ecommerce store built using React and
-            Node.js
+            digital content for the web. Resourceful frontend developer
+            specializing in React and Next.js, adept at architecting dynamic
+            user interfaces, Proficient in HTML, CSS, and JavaScript, with a
+            keen eye for detail in translating designs into seamless web
+            experiences.
           </p>
           <p className="about-grid-info-text">
-            Fast-forward to today, I specialize in designing and developing high
-            quality solutions that delight clients and preceed their expectation
-            I hope 🤔
+            Skilled in collaborating with cross-functional teams to deliver
+            high-quality products within deadlines. Committed to continuous
+            learning and staying updated with industry trends to enhance
+            development capabilities.
           </p>
 
           {/* <p className="about-grid-info-text">
@@ -58,9 +53,18 @@ const About = () => {
               target="_blank"
               className="link"
             >
-              Quill
+              Maxup,
+              <Image
+                src="./line.svg"
+                alt="line"
+                height={200}
+                width={500}
+                className="underline-image"
+              />
             </Link>{" "}
-            communicate to your PDF file by leveraging AI.
+            with my passion for exercising, I have crafted a workout application
+            to share my love for keeping fit, click the link above to check it
+            out.
           </p>
 
           <p className="about-grid-info-text">
