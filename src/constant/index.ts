@@ -29,7 +29,7 @@ export const experiences = [
 export const projectsData = [
   {
     image: "/maxup.png",
-    projectLink: "https://quill-nine-eosin.vercel.app/",
+    projectLink: "https://workout-client-seven.vercel.app/",
     projectName: "MaXup",
     projectDescription:
       "Maxup stands out as your go-to fitness web app due to its user-friendly interface, extensive exercise library, personalized approach, and robust tracking capabilities. Whether you're aiming to lose weight, build muscle, improve flexibility, or simply adopt a healthier lifestyle, FitFusion empowers you to reach your fitness goals effectively and sustainably.",
@@ -47,28 +47,28 @@ export const projectsData = [
       externalLink: "https://workout-client-seven.vercel.app",
     },
   },
-  {
-    image: "/Quill.png",
-    projectLink: "https://quill-nine-eosin.vercel.app/",
-    projectName: "Quill",
-    projectDescription:
-      "Quill allows you to have conversation with any PDF document. By simply uploading your file you can start asking questions right away and an AI assistant will provide you with the necessary feedback. You can be upgraded on this software by subscribing to a Premium package",
-    projectTech: [
-      "React",
-      "Next js",
-      "TRPc",
-      "React Query",
-      "Tailwind Css",
-      "Pincone",
-      "Langchain",
-      "Prisma",
-      "Open AI",
-    ],
-    projectExternalLinks: {
-      github: "https://github.com/olamidemoraks/quill",
-      externalLink: "https://quill-nine-eosin.vercel.app/",
-    },
-  },
+  // {
+  //   image: "/Quill.png",
+  //   projectLink: "https://quill-nine-eosin.vercel.app/",
+  //   projectName: "Quill",
+  //   projectDescription:
+  //     "Quill allows you to have conversation with any PDF document. By simply uploading your file you can start asking questions right away and an AI assistant will provide you with the necessary feedback. You can be upgraded on this software by subscribing to a Premium package",
+  //   projectTech: [
+  //     "React",
+  //     "Next js",
+  //     "TRPc",
+  //     "React Query",
+  //     "Tailwind Css",
+  //     "Pincone",
+  //     "Langchain",
+  //     "Prisma",
+  //     "Open AI",
+  //   ],
+  //   projectExternalLinks: {
+  //     github: "https://github.com/olamidemoraks/quill",
+  //     externalLink: "https://quill-nine-eosin.vercel.app/",
+  //   },
+  // },
   {
     image: "/wihire.png",
     projectLink: "https://job-board-teal.vercel.app/",
