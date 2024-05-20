@@ -16,18 +16,18 @@ export default function SocialIcon({}: Props) {
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/morakinyo-david-o-ab9138240/",
+      link: "https://www.linkedin.com/in/morakinyo-olamide/",
     },
     {
       name: "Instagram",
       icon: <FiInstagram />,
       link: "https://www.instagram.com/chippy_vibe/",
     },
-    {
-      name: "Twitter",
-      icon: <FiTwitter />,
-      link: "https://twitter.com/morakinyodavi10",
-    },
+    // {
+    //   name: "Twitter",
+    //   icon: <FiTwitter />,
+    //   link: "https://twitter.com/morakinyodavi10",
+    // },
   ];
   return (
     <motion.div

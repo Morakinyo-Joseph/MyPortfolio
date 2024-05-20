@@ -7,7 +7,7 @@ type ButtonType = {
 
 const Button: React.FC<ButtonType> = ({ link, text }) => {
   return (
-    <Link href={link} className="btn">
+    <Link href={link} className="btn" target="_blank">
       {text}
     </Link>
   );

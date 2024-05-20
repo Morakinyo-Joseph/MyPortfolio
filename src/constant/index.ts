@@ -30,9 +30,9 @@ export const projectsData = [
   {
     image: "/maxup.png",
     projectLink: "https://quill-nine-eosin.vercel.app/",
-    projectName: "FitHouse",
+    projectName: "MaXup",
     projectDescription:
-      "FitHouse stands out as your go-to fitness web app due to its user-friendly interface, extensive exercise library, personalized approach, and robust tracking capabilities. Whether you're aiming to lose weight, build muscle, improve flexibility, or simply adopt a healthier lifestyle, FitFusion empowers you to reach your fitness goals effectively and sustainably.",
+      "Maxup stands out as your go-to fitness web app due to its user-friendly interface, extensive exercise library, personalized approach, and robust tracking capabilities. Whether you're aiming to lose weight, build muscle, improve flexibility, or simply adopt a healthier lifestyle, FitFusion empowers you to reach your fitness goals effectively and sustainably.",
     projectTech: [
       "React",
       "Next js",

@@ -59,6 +59,7 @@ const Project = () => {
                   <Link
                     href={projectExternalLinks.externalLink}
                     className="project-info-title"
+                    target="_blank"
                   >
                     <h3 className="">{projectName}</h3>
                   </Link>
@@ -77,6 +78,7 @@ const Project = () => {
                       <Link
                         href={projectExternalLinks.github}
                         className="project-info-links-item-link"
+                        target="_blank"
                       >
                         <FiGithub />
                       </Link>

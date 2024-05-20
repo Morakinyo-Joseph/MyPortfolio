@@ -129,7 +129,7 @@ const Navbar: React.FC<NavbarProps> = () => {
           >
             <Button
               text="Resume"
-              link="https://olamidemoraks.vercel.app/MorakinyoDavidResume.pdf"
+              link="https://olamidemoraks.vercel.app/MorakinyoDavidCV.pdf"
             />
           </motion.div>
         </div>

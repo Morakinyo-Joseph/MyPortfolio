@@ -37,9 +37,9 @@ export default function Home() {
             {/* <AnimateEye /> */}
             <Hero />
             <About />
-            <Eduction />
             <Experience />
             <Project />
+            <Eduction />
             <Contact />
           </main>
         </>
