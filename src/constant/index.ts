@@ -1,5 +1,17 @@
 export const experiences = [
   {
+    name: "100PAY",
+    role: "Fullstack Developer",
+    start: "May 2024",
+    end: "Current",
+    shortDescription: [
+      "Ensure websites and applications are mobile-friendly and cross-browser compatible to provide an optimal user experience on various devices and platforms.",
+      "Optimize web pages for maximum speed and scalability, ensuring efficient loading times and smooth interactions.",
+      "Orchestrated seamless collaboration with backend developers to ensure flawless integration of frontend functionalities with the database and server-side systems, facilitating uninterrupted data flow and system synchronization. Coordinate with designers to ensure the technical feasibility of UI/UX designs.",
+      "Conduct thorough testing of web applications, including unit tests, integration tests, and user acceptance tests. Debug and resolve issues promptly.",
+    ],
+  },
+  {
     name: "JSS -(Jet support services LTD)",
     role: "Frontend Developer",
     start: "June 2023",
@@ -172,5 +184,7 @@ export const slugs = [
   "nestdotjs",
   "reactnative",
   "expo",
-  "tailwind",
+  "tailwindcss",
+  "redux",
+  "mongodb",
 ];

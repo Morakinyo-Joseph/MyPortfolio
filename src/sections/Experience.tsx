@@ -40,12 +40,12 @@ const Experience: React.FC<ExperienceProps> = () => {
               <li
                 key={index}
                 className={`exp-slider-item ${
-                  index === selected && "exp-slide-item-selected"
+                  index === selected && "exp-slider-item-selected"
                 }`}
                 onClick={() => setSelected(index)}
               >
                 <span>
-                  {index === 0 ? experience.name.slice(0, 4) : experience.name}
+                  {index === 1 ? experience.name.slice(0, 4) : experience.name}
                 </span>
               </li>
             );

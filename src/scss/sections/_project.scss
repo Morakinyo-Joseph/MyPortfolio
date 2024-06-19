@@ -230,6 +230,7 @@
   }
   @media screen and (max-width: 600px) {
     &-container {
+      gap: 2rem;
       .project {
         &-image {
           &-container {

@@ -87,7 +87,8 @@ const About = () => {
             <li className="about-grid-info-list-item">Prisma</li>
             <li className="about-grid-info-list-item">Redux</li>
             <li className="about-grid-info-list-item">Shadcn UI</li>
-            <li className="about-grid-info-list-item">Express</li>
+            <li className="about-grid-info-list-item">Express js</li>
+            <li className="about-grid-info-list-item">Nest js</li>
           </ul>
         </div>
 
