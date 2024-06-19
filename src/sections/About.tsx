@@ -4,6 +4,8 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import AnimateEye from "@/components/AnimateEye";
+import IconCloud from "@/components/magicui/icon-cloud";
+import { slugs } from "@/constant";
 
 const About = () => {
   return (
@@ -90,10 +92,11 @@ const About = () => {
         </div>
 
         <div className="about-grid-photo">
-          <div className="overlay"></div>
+          {/* <div className="overlay"></div>
           <div className="overlay-border"></div>
 
-          <div className="about-grid-photo-container"></div>
+          <div className="about-grid-photo-container"></div> */}
+          <IconCloud iconSlugs={slugs} />
         </div>
       </div>
     </motion.div>

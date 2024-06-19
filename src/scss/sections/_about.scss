@@ -30,7 +30,7 @@
 
   &-grid {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
     gap: 1rem;
     &-info {
       display: flex;
@@ -73,7 +73,7 @@
     }
     &-photo {
       position: relative;
-      width: max-content;
+      width: "32rem";
       height: max-content;
 
       &:hover {
